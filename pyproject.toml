@@ -1,0 +1,19 @@
+[project]
+name = "EmtionClassification"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Nhom1", email = "hoangthanhdieu2006@gmail.com"},
+]
+dependencies = ["numpy>=2.4.1"]
+requires-python = ">=3.13"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
